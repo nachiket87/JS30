@@ -49,6 +49,3 @@ const newComments = [
   ...comments.slice(0, yes3),
   ...comments.slice(yes3+1),
 ]; // insane use of spread!!
-
-console.log(newComments);
-
