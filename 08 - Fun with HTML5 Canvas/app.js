@@ -8,6 +8,7 @@ ctx.lineJoin = 'round'
 ctx.lineCap = 'round'
 ctx.lineWidth = 100;
 // ctx.globalCompositeOperation = 'screen';
+// ^this is to set what to do with the colors that overlap^
 
 let isDrawing = false;
 let lastX = 0; // where to start the line from
